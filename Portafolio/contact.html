@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Informacion de Contacto">
+    <meta name="author" content="Camila Zubía Higuera">
+    <title>Medios de Contacto | Camila Zubía</title>
+    <link rel="icon" type="image/jpeg" href="images/cam.jpeg">
+</head>
+<body>
+    <header>
+        <h1>Opciones de contacto</h1>
+        <nav>
+            <a href="/index.html">Home</a> |
+            <a href="/about.html">Sobre mi</a> |
+            <a href="/projects.html">Proyectos</a> |
+            <a href="skills.html">Escritos</a> |
+            <a href="/contact.html">Contacto</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Formulario de Contacto</h2>
+            <form action="" method="post">
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ej. Camila Zubía" required><br><br>
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" placeholder="ejemplo@gmail.com" required><br><br>
+
+                <label for="cel">Teléfono (10 dígitos):</label>
+                <input type="tel" id="cel" name="tel" placeholder="1234567890" required pattern="[0-9]{10}"><br><br>
+
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" name="edad" min="18" max="99" required><br><br>
+
+                <label for="fecha">Fecha de nacimiento:</label>
+                <input type="date" id="fecha" name="fecha"><br><br>
+
+                <fieldset>
+                    <legend>¿Cómo prefieres ser contactado?</legend>
+                    <label for="pref_email">
+                        <input type="radio" id="pref_email" name="preferencia" value="email" checked> Email
+                    </label>
+                    <label for="pref_whatsapp">
+                        <input type="radio" id="pref_whatsapp" name="preferencia" value="whatsapp"> WhatsApp
+                    </label>
+                </fieldset><br>
+
+                <label for="motivo">Motivo del mensaje:</label>
+                <select id="motivo" name="motivo" required>
+                    <option value="">-- Selecciona una opción --</option>
+                    <option value="contratacion">Propuesta de trabajo</option>
+                    <option value="colaboracion">Colaboración</option>
+                    <option value="saludo">Solo saludar</option>
+                </select><br><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="50" placeholder="Escribe tu mensaje aquí..."></textarea><br><br>
+
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar formulario</button>
+            </form>
+        </section>
+    </main>
+</body>
