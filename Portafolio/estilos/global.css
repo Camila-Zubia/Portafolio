@@ -15,5 +15,5 @@ a{
 }
 
 a:hover{
-    color: var(--links-hover-dark);
+    color: var(--links-hover);
 }
