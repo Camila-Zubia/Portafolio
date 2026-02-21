@@ -1,0 +1,19 @@
+/* importa la fuente Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap');
+
+/* variables CSS globales*/
+:root{
+    --bg-color:#f6fff8;
+    --text-color: black;
+    --links-color: #588157;
+    --links-hover: #55828b;
+}
+
+a{
+    color: var(--links-color);
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--links-hover-dark);
+}

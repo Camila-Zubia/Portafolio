@@ -1,0 +1,48 @@
+@import url('./global.css');
+
+body{
+    background-color: var(--bg-color);
+    color:var(--text-color);
+    font-family: "Open Sans";
+    line-height: 1.5;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+h1{
+    font-size: 60px;
+    color:#344e41;
+}
+
+#cam{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500;
+}
+h2{
+    color:#6b9080;
+    font-size: 50px;
+}
+h3{
+    font-size: 40px;
+    color:cadetblue;
+}
+p{
+    font-size: 25px;
+}
+table{
+    font-size: 20px;
+    border-color: #344e41;
+    border-radius: 10px;
+}
+li{
+    font-size: 25px;
+}
+a{
+    font-size: 30px;
+    color:#588157;
+}
